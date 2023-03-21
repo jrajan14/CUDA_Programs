@@ -1,4 +1,10 @@
-﻿
+﻿/*
+CUDA Programs
+By J RAJAN
+For Learners
+Title: Addition of 2 Arrays in Parallel
+*/
+
 #include "cuda_runtime.h"
 #include "device_launch_parameters.h"
 
@@ -23,7 +29,8 @@ int main()
     cudaMalloc(&d_b, N * sizeof(int));
     cudaMalloc(&d_c, N * sizeof(int));
 
-    for (int i = 0; i < N; i++) {
+    for (int i = 0; i < N; i++) 
+    {
         a[i] = i;
         b[i] = i * i; //squaring for second array
     }
@@ -38,7 +45,8 @@ int main()
     cudaMemcpy(c, d_c, N * sizeof(int), cudaMemcpyDeviceToHost); 
 
     //Display 
-    for (int i = 0; i < N; i++) {
+    for (int i = 0; i < N; i++) 
+    {
         printf("%d + %d = %d\n", a[i], b[i], c[i]);
     }
 
