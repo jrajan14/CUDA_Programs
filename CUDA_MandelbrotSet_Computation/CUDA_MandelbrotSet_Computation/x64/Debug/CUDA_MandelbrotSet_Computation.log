@@ -2,5 +2,5 @@
   
   E:\GitHub\CUDA_Programs\CUDA_MandelbrotSet_Computation\CUDA_MandelbrotSet_Computation>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o E:\GitHub\CUDA_Programs\CUDA_MandelbrotSet_Computation\CUDA_MandelbrotSet_Computation\x64\Debug\kernel.cu.obj "E:\GitHub\CUDA_Programs\CUDA_MandelbrotSet_Computation\CUDA_MandelbrotSet_Computation\kernel.cu" 
   kernel.cu
-  tmpxft_00004d2c_00000000-7_kernel.cudafe1.cpp
+  tmpxft_00005d5c_00000000-7_kernel.cudafe1.cpp
   CUDA_MandelbrotSet_Computation.vcxproj -> E:\GitHub\CUDA_Programs\CUDA_MandelbrotSet_Computation\x64\Debug\CUDA_MandelbrotSet_Computation.exe
