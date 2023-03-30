@@ -1,0 +1,19 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  E:\GitHub\CUDA_Programs\CUDA_Game_of_Life\CUDA_Game_of_Life>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o E:\GitHub\CUDA_Programs\CUDA_Game_of_Life\CUDA_Game_of_Life\x64\Debug\kernel.cu.obj "E:\GitHub\CUDA_Programs\CUDA_Game_of_Life\CUDA_Game_of_Life\kernel.cu" 
+E:\GitHub\CUDA_Programs\CUDA_Game_of_Life\CUDA_Game_of_Life\kernel.cu(92): warning #951-D: return type of function "main" must be "int"
+    void main() 
+         ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+E:\GitHub\CUDA_Programs\CUDA_Game_of_Life\CUDA_Game_of_Life\kernel.cu(92): warning #951-D: return type of function "main" must be "int"
+    void main() 
+         ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+  kernel.cu
+  tmpxft_000077a4_00000000-7_kernel.cudafe1.cpp
+E:\GitHub\CUDA_Programs\CUDA_Game_of_Life\CUDA_Game_of_Life\kernel.cu(98): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  CUDA_Game_of_Life.vcxproj -> E:\GitHub\CUDA_Programs\CUDA_Game_of_Life\x64\Debug\CUDA_Game_of_Life.exe

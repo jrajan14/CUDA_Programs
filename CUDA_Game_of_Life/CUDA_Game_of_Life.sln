@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CUDA_Game_of_Life", "CUDA_Game_of_Life\CUDA_Game_of_Life.vcxproj", "{F96A6D7E-573E-484F-B53E-66076C60A13D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F96A6D7E-573E-484F-B53E-66076C60A13D}.Debug|x64.ActiveCfg = Debug|x64
+		{F96A6D7E-573E-484F-B53E-66076C60A13D}.Debug|x64.Build.0 = Debug|x64
+		{F96A6D7E-573E-484F-B53E-66076C60A13D}.Release|x64.ActiveCfg = Release|x64
+		{F96A6D7E-573E-484F-B53E-66076C60A13D}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A769CBA-3E89-4E5F-B5FA-95E590AEA0F8}
+	EndGlobalSection
+EndGlobal
