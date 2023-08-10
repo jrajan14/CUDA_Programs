@@ -9,4 +9,4 @@ The Classic Conway's Game Of Life program using CUDA for parallelised processing
 Screen adjustment may be required for proper visuals 
 
 ### Requirements
-Written in CUDA 12.1 runtime
+Written in CUDA 12.1 runtime, using Visual Studio 2022
