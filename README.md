@@ -8,5 +8,5 @@ The Classic Conway's Game Of Life program using CUDA for parallelised processing
 (Not so) Complex Mandelbrot Set computation program for equation Z^2+C using CUDA.
 Screen adjustment may be required for proper visuals 
 
-### Requirements
+### Requirements.  
 Written in CUDA 12.1 runtime, using Visual Studio 2022.
