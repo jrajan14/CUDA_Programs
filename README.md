@@ -1,7 +1,7 @@
 # Nvidia CUDA Programs             
 Nvidia CUDA sample programs and useful functions            
    
-# Game of Life using CUDA       
+# Game of Life using CUDA           
 The Classic Conway's Game Of Life program using CUDA for parallelised processing of cells and generations
 
 # Mandelbrot Set Computation using CUDA
