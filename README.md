@@ -1,4 +1,4 @@
-# Nvidia CUDA Programs                  
+# Nvidia CUDA Programs                         
 Nvidia CUDA sample programs and useful functions                       
               
 # Game of Life using CUDA                
