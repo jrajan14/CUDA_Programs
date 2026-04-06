@@ -3,7 +3,7 @@ CUDA Programs
 By J RAJAN
 For Learners
 Title: GAME OF LIFE 
-(CONWAY'S GAME OF LIFE)
+CONWAY'S GAME OF LIFE
 */
 
 #include <stdio.h>
